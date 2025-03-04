@@ -1,4 +1,4 @@
-// WAP to input name of the person & response with Welcome name to "abhimanyucodes".
+//1. WAP to input name of the person & response with Welcome name to "abhimanyucodes".
 #include<stdio.h>
 void main()
 {

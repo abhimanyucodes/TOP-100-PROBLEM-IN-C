@@ -1,0 +1,1 @@
+// 17. WAP to find the Least Common Multiple (LCM) of two numbers.
