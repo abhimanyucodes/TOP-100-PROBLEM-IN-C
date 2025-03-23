@@ -2,24 +2,24 @@
 #include<stdio.h>
 void main()
 {
-    int n, rem,palindrom = 0;
+    int n, rem,palindrome = 0;
     printf("\nEnter n to check it is Palindrome number or not : ");
     scanf("%d",&n);
     int ln = n;
     while( n > 0)
     {
         rem = n % 10;
-        palindrom = palindrom* 10 + rem;
+        palindrome = palindrome* 10 + rem;
         n = n / 10;
     }
 
-    if(ln == palindrom)
+    if(ln == palindrome)
     {
-        printf("%d is palindrom a number.",ln);
+        printf("%d is palindrome a number.",ln);
     }
     else
     {
-        printf("%d is not a palindrom number.",ln);
+        printf("%d is not a palindrome number.",ln);
     }
    
     
