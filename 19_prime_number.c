@@ -18,6 +18,6 @@ void main()
     }
     else
     {
-        printf("%d is a  Not Prime number.",n);
+        printf("%d is Not a Prime number.",n);
     }
 }
